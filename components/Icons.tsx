@@ -1,0 +1,14 @@
+import React from "react"
+import Svg, { Path, G, Defs, ClipPath } from "react-native-svg"
+
+export const DarkIcon = () => {
+    return (
+        <Svg width={24} height={24} enable-background="new 0 0 48 48" viewBox="0 0 48 48" id="waxing"><Defs><ClipPath id="a"><Path d="M0 38h38V0H0v38Z"></Path></ClipPath></Defs><G clip-Path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><Path fill="#ccd6dd" d="M0 0c0-9.941-8.059-18-18-18-.294 0-.58.029-.87.043C-24.761-15.393-29-8.332-29 0c0 8.331 4.239 15.393 10.13 17.956.29.014.576.044.87.044C-8.059 18 0 9.941 0 0" transform="translate(37 19)"></Path><Path fill="#66757f" d="M0 0c0 8.331 4.239 15.393 10.13 17.956C.596 17.499-7 9.647-7 0-7-9.646.594-17.498 10.128-17.956 4.238-15.391 0-8.331 0 0" transform="translate(8 19)"></Path><Path fill="#b8c5cd" d="M0 0a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0" transform="translate(23 28.5)"></Path><Path fill="#b8c5cd" d="M0 0a3 3 0 1 1 6 0 3 3 0 0 1-6 0" transform="translate(14 21)"></Path><Path fill="#b8c5cd" d="M0 0c0-1.934 1.566-3.5 3.5-3.5S7-1.934 7 0 5.434 3.5 3.5 3.5A3.499 3.499 0 0 1 0 0" transform="translate(12 9.5)"></Path><Path fill="#b8c5cd" d="M0 0a2 2 0 1 1 4.001.001A2 2 0 0 1 0 0" transform="translate(14 31)"></Path><Path fill="#b8c5cd" d="M0 0a1 1 0 1 0-1.998-.002A1 1 0 0 0 0 0" transform="translate(35 19)"></Path><Path fill="#5b6876" d="M0 0a1 1 0 1 0-1.998-.002A1 1 0 0 0 0 0" transform="translate(8 28)"></Path><Path fill="#b8c5cd" d="M0 0a1 1 0 1 0-2 0 1 1 0 1 0 2 0" transform="translate(23 6)"></Path><Path fill="#5b6876" d="M0 0a2 2 0 1 1 4.001.001A2 2 0 0 1 0 0" transform="translate(3 18)"></Path><Path fill="#b8c5cd" d="M0 0a2 2 0 1 1 4.001.001A2 2 0 0 1 0 0" transform="translate(25 14)"></Path></G></Svg>
+    )
+}
+
+export const LightIcon = () => {
+    return (
+        <Svg width={24} height={24} viewBox="0 0 47.5 47.5" id="sun"><Defs><ClipPath id="a"><Path d="M0 38h38V0H0v38Z"></Path></ClipPath></Defs><G fill="#ffac33" clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><Path d="M17 35s0 2 2 2 2-2 2-2v-2s0-2-2-2-2 2-2 2v2zM35 21s2 0 2-2-2-2-2-2h-2s-2 0-2 2 2 2 2 2h2zM5 21s2 0 2-2-2-2-2-2H3s-2 0-2 2 2 2 2 2h2zM10.121 29.706s1.414-1.414 0-2.828-2.828 0-2.828 0l-1.415 1.414s-1.414 1.414 0 2.829c1.415 1.414 2.829 0 2.829 0l1.414-1.415ZM31.121 8.707s1.414-1.414 0-2.828-2.828 0-2.828 0l-1.414 1.414s-1.414 1.414 0 2.828 2.828 0 2.828 0l1.414-1.414ZM30.708 26.879s-1.414-1.414-2.828 0 0 2.828 0 2.828l1.414 1.414s1.414 1.414 2.828 0 0-2.828 0-2.828l-1.414-1.414ZM9.708 5.879s-1.414-1.414-2.828 0 0 2.828 0 2.828l1.414 1.414s1.414 1.414 2.828 0 0-2.828 0-2.828L9.708 5.879ZM17 5s0 2 2 2 2-2 2-2V3s0-2-2-2-2 2-2 2v2zM29 19c0 5.523-4.478 10-10 10-5.523 0-10-4.477-10-10 0-5.522 4.477-10 10-10 5.522 0 10 4.478 10 10"></Path></G></Svg>
+    )
+}
